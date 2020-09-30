@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0055498a9c.js"
+      ;
+      crossorigin="anonymous"
+      ;
+    ></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Julia's Weather Report</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card weather-app">
+        <input
+          type="submit"
+          value="Check weather current location"
+          id="current-location-button"
+        />
+        <form id="check-city-form">
+          <input
+            type="text"
+            placeholder="Enter city"
+            autocomplete="off"
+            autofocus="on"
+            id="city"
+          />
+          <input type="submit" value="Check" class="check-button" />
+        </form>
+
+        <div class="row" style="margin-top: -20px">
+          <div class="col-6">
+            <h3 id="header-current">Weather</h3>
+            <h4 id="current-time">Wednesday 12:22</h4>
+            <ul class="current-weather">
+              <li id="temperature-output">
+                <span id="celsius-temp-output">
+                  <span id="temperature">18 </span
+                  ><a href="#" class="unit" id="celsius-link">°C </a></span
+                ><span class="unit">|</span>
+                <a href="" class="unit" id="fahrenheit-link">°F </a>
+              </li>
+              <li>
+                <i class="fas fa-cloud-sun-rain icon-current"></i>
+              </li>
+              <li class="wind">NW4</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <h3 id="header-forecast">Forecast</h3>
+            <ul class="forecast">
+              <li class="day1">
+                Thursday, August 27 <br />
+                <i class="fas fa-cloud icon-day1"></i>
+                <span class="temperature">20°C</span>
+              </li>
+              <li class="day2">
+                Friday, August 28 <br />
+                <i class="fas fa-cloud-showers-heavy icon-day2"></i>
+                <span class="temperature">19°C</span>
+              </li>
+              <li class="day3">
+                Saturday, August 29 <br />
+                <i class="fas fa-cloud-sun-rain icon-day3"></i>
+                <span class="temperature">18°C</span>
+              </li>
+              <li class="day4">
+                Sunday, August 30 <br />
+                <i class="fas fa-cloud-sun-rain icon-day4"></i>
+                <span class="temperature">18°C</span>
+              </li>
+              <li class="day5">
+                Monday, August 31 <br />
+                <i class="fas fa-cloud-sun icon-day5"></i>
+                <span class="temperature">18°C</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
