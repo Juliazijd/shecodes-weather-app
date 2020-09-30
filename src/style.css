@@ -13,8 +13,8 @@ footer {
   text-align: center;
   color: #005874;
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  bottom: 0px;
+  left: 10px;
   height: 30px;
 }
 
@@ -24,8 +24,8 @@ footer {
   border-color: #fcbf1e;
   border-radius: 100%;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
-  margin: 20px 60px 60px 20px;
-  padding: 70px;
+  margin: 10px 60px 20px 20px;
+  padding: 80px;
   position: fixed;
 }
 
@@ -126,7 +126,7 @@ footer {
 .day3,
 .day4,
 .day5 {
-  padding-top: 8px;
+  padding-top: 12px;
 }
 
 .icon-day1,
