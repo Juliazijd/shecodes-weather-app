@@ -1,0 +1,138 @@
+body {
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+
+.weather-app {
+  background-color: #e6e6d4;
+  border-width: 5px;
+  border-color: #fcbf1e;
+  border-radius: 100%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px 60px 20px 20px;
+  padding: 80px;
+  position: fixed;
+}
+
+#check-city-form {
+  padding-bottom: 20px;
+}
+
+#city {
+  background-color: white;
+  border-color: #fcbf1e;
+  border-radius: 20px;
+  border-style: solid;
+  color: #1c819e;
+  padding: 0 60px 0 0;
+}
+
+.check-button {
+  background: #ffbe00;
+  border: none;
+  border-radius: 20px;
+  color: #1c819e;
+  font-family: "Nunito", sans-serif;
+  padding: 1px 5px;
+  margin-top: 10px;
+}
+
+#current-location-button {
+  background: #005874;
+  border: none;
+  border-radius: 20px;
+  color: #ffbe00;
+  font-family: "Nunito", sans-serif;
+  padding: 1px 5px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+#header-current {
+  color: #005874;
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: right;
+  margin: 0;
+  padding: 20px 34px 0 0;
+}
+.current-weather {
+  color: #005874;
+  font-size: 40px;
+  font-weight: bolder;
+  list-style: none;
+  padding-top: 0;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#current-time {
+  color: #1c819e;
+  font-size: 22px;
+  padding: 12px 34px 0 0;
+  text-align: right;
+}
+.unit {
+  font-size: 20px;
+}
+
+#fahrenheit {
+  color: #1c819e;
+  font-weight: lighter;
+}
+
+.icon-current {
+  color: #005874;
+  font-size: 80px;
+}
+
+.wind {
+  color: #1c819e;
+}
+
+#header-forecast {
+  color: #005874;
+  font-size: 26px;
+  font-weight: bolder;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.forecast {
+  color: #1c819e;
+  font-size: 15px;
+  line-height: 18px;
+  list-style: none;
+  text-align: right;
+}
+
+.day1,
+.day2,
+.day3,
+.day4,
+.day5 {
+  padding-top: 8px;
+}
+
+.icon-day1,
+.icon-day2,
+.icon-day3,
+.icon-day4,
+.icon-day5 {
+  font-size: 25px;
+}
+
+.temperature {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+strong {
+  font-size: 20px;
+}
